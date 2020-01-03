@@ -1,3 +1,3 @@
 class ScoreSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :gamelevel, :finish_time, :number_of_flips
 end
